@@ -54,5 +54,5 @@ reset_access_cred <- function() {
 }
 
 get_sig <- function() {
-  stop("Deprecated: use get_access_cred directly", call. = FALSE)
+  stop("Deprecated: use get_access_cred directly", call. = TRUE)
 }
