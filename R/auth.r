@@ -1,7 +1,6 @@
 #' @importFrom httr oauth_endpoint oauth_app oauth2.0_token
 #google <- oauth_endpoint(NULL, "auth", "token",
 #base_url = "https://accounts.google.com/o/oauth2")
-google <- NULL
 bigqr <- oauth_app("google",
 "465736758727.apps.googleusercontent.com",
   "fJbIIyoIag0oA6p114lwsV2r")
