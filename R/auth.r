@@ -4,7 +4,7 @@ google <- oauth_endpoint(NULL, "auth", "token",
 bigqr <- oauth_app("google",
 #"465736758727.apps.googleusercontent.com",
 "334303937053.apps.googleusercontent.com",
-  "T7UrAaXhl9OmyV2mPcBB1lI3")
+  "T7UrAaXhl9OmyV2mPcBB1lI3" )
 #  "fJbIIyoIag0oA6p114lwsV2r")
 
 
