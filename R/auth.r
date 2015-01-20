@@ -2,10 +2,9 @@
 google <- oauth_endpoint(NULL, "auth", "token",
   base_url = "https://accounts.google.com/o/oauth2")
 bigqr <- oauth_app("google",
-#"8819981768.apps.googleusercontent.com",
 "465736758727.apps.googleusercontent.com",
   "fJbIIyoIag0oA6p114lwsV2r")
-#"1/6BMfW9j53gdGImsiyUH5kU5RsR4zwI9lUVX-tqf8JXQ")
+
 
 bq_env <- new.env(parent = emptyenv())
 
@@ -54,5 +53,5 @@ reset_access_cred <- function() {
 }
 
 get_sig <- function() {
-  stop("Deprecated: use get_access_cred directly", call. = TRUE)
+  stop("Deprecated: use get_access_cred directly", call. = FALSE)
 }
